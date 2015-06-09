@@ -34,7 +34,7 @@ class WelcomeController extends Controller {
 	}
 	public function contact()
 	{
-		return 'contact us';
+		return view('pages.contact');
 	}
 
 }
